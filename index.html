@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Object Recognition</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="company-name">
+            Silent Speak
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>AI Object Recognition</h1>
+        <div class="video-panel">
+            <video id="video" autoplay></video>
+            <button id="captureButton">Capture Image</button>
+            <canvas id="canvas" style="display: none;"></canvas>
+        </div>
+        <p id="description"></p>
+    </div>
+
+    <div class="animated-text">
+        An Aid for the Visually Impaired
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

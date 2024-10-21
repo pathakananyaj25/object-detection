@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7e0; /* Light green background */
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.company-name {
+    font-size: 32px;
+    color: darkgreen;
+    font-weight: bold;
+    animation: fadeIn 3s ease-in-out infinite alternate;
+}
+
+/* Animation keyframes for the company name */
+@keyframes fadeIn {
+    0% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.video-panel {
+    position: relative;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#description {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Animated text styling */
+.animated-text {
+    font-size: 24px;
+    color: darkgreen;
+    font-weight: bold;
+    margin-top: 20px;
+    animation: slide 3s infinite alternate;
+}
+
+/* Animation keyframes for the animated text */
+@keyframes slide {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-10px);
+        opacity: 0.7;
+    }
+}
